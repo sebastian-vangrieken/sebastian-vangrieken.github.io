@@ -49,6 +49,9 @@ html {
           background-color: $accent;
           border-radius: 5px;
         }
+        a:visited {
+          color: white;
+        }
       }
     }
     footer {
