@@ -1,0 +1,33 @@
+$background: #212529;
+$text: #adb5bd;
+$accent: #cb95f8;
+
+html {
+  body {
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: $background;
+    color: $text;
+    header {
+      background-color: $accent;
+      nav {
+        div {
+          div{
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      bottom: 0;
+      right: 0;
+      color: $text;
+      a:visited {
+        text-decoration: none;
+        color: $text;
+      }
+    }
+  }
+}
