@@ -21,36 +21,49 @@ html {
       }
     }
     main {
-      #welcome {
-        background-color: $background2;
-        color: $text;
-        border-radius: 5px;
-        a {
-          text-decoration: none;
-          background-color: $accent;
+      #container {
+        height: 80vh;
+        #welcome {
+          background-color: $background2;
+          color: $text;
           border-radius: 5px;
+          h1 {
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+          }
+          a {
+            text-decoration: none;
+            background-color: $accent;
+            border-radius: 5px;
+          }
+
+          a:visited {
+            color: white;
+          }
         }
-        a:visited {
-          color: white;
-        }
-      }
-      div {
-        background-color: $background2;
-        border-radius: 5px;
-        h2 {
-          border-bottom-style: solid;
-          border-bottom-width: 2px;
-        }
-        h4 {
-          color: $accent;
-        }
-        a {
-          text-decoration: none;
-          background-color: $accent;
+
+        div {
+          background-color: $background2;
           border-radius: 5px;
-        }
-        a:visited {
-          color: white;
+
+          h1 {
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+          }
+
+          h4 {
+            color: $accent;
+          }
+
+          a {
+            text-decoration: none;
+            background-color: $accent;
+            border-radius: 5px;
+          }
+
+          a:visited {
+            color: white;
+          }
         }
       }
     }
