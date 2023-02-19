@@ -1,0 +1,98 @@
+html body {
+  height: 100vh;
+  background-color: #212529;
+  color: #adb5bd;
+}
+html body header {
+  background-color: #cb95f8;
+}
+html body header nav div div a:hover {
+  text-decoration: underline;
+}
+html body main #container {
+  height: 80vh;
+}
+html body main #container #welcome {
+  background-color: #2b3035;
+  color: #adb5bd;
+  border-radius: 5px;
+}
+html body main #container #welcome h1 {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+html body main #container #welcome a {
+  text-decoration: none;
+  background-color: #cb95f8;
+  border-radius: 5px;
+}
+html body main #container #welcome a:visited {
+  color: white;
+}
+html body main #container div {
+  background-color: #2b3035;
+  border-radius: 5px;
+}
+html body main #container div h1 {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+html body main #container div h4 {
+  color: #cb95f8;
+}
+html body main #container div a {
+  text-decoration: none;
+  background-color: #cb95f8;
+  border-radius: 5px;
+}
+html body main #container div a:visited {
+  color: white;
+}
+html body footer {
+  bottom: 0;
+  right: 0;
+  color: #adb5bd;
+}
+html body footer a:visited {
+  text-decoration: none;
+  color: #adb5bd;
+}
+
+html body {
+  height: 100vh;
+  background-color: #212529;
+  color: #adb5bd;
+}
+html body header {
+  background-color: #cb95f8;
+}
+html body header nav div div a:hover {
+  text-decoration: underline;
+}
+html body main div {
+  background-color: #2b3035;
+  border-radius: 5px;
+}
+html body main div h1 {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+html body main #cv a {
+  background-color: #cb95f8;
+  border-radius: 10px;
+}
+html body main #cv a:visited {
+  color: white;
+  text-decoration: none;
+}
+html body footer {
+  bottom: 0;
+  right: 0;
+  color: #adb5bd;
+}
+html body footer a:visited {
+  text-decoration: none;
+  color: #adb5bd;
+}
+
+/*# sourceMappingURL=over_mij.css.map */

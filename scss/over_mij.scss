@@ -1,0 +1,50 @@
+@import "style";
+
+html {
+  body {
+    height: 100vh;
+    background-color: $background;
+    color: $text;
+    header {
+      background-color: $accent;
+      nav {
+        div {
+          div{
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    main {
+      div {
+        background-color: $background2;
+        border-radius: 5px;
+        h1 {
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+        }
+      }
+      #cv {
+        a {
+          background-color: $accent;
+          border-radius: 10px;
+        }
+        a:visited {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+    footer {
+      bottom: 0;
+      right: 0;
+      color: $text;
+      a:visited {
+        text-decoration: none;
+        color: $text;
+      }
+    }
+  }
+}
