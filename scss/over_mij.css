@@ -12,6 +12,15 @@ html body header nav div div a:hover {
 html body main #container {
   height: 80vh;
 }
+html body main #container a {
+  text-decoration: none;
+  background-color: #cb95f8;
+  border-radius: 5px;
+  color: white;
+}
+html body main #container a:visited {
+  color: white;
+}
 html body main #container #welcome {
   background-color: #2b3035;
   color: #adb5bd;
@@ -20,14 +29,6 @@ html body main #container #welcome {
 html body main #container #welcome h1 {
   border-bottom-style: solid;
   border-bottom-width: 2px;
-}
-html body main #container #welcome a {
-  text-decoration: none;
-  background-color: #cb95f8;
-  border-radius: 5px;
-}
-html body main #container #welcome a:visited {
-  color: white;
 }
 html body main #container div {
   background-color: #2b3035;
