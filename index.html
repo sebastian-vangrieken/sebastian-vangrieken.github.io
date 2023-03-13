@@ -2,69 +2,50 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Sebastian Van Grieken</title>
-    <link rel="stylesheet" href="scss/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <header class="sticky-top mb-3">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand text-white" href="#">Sebastian</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="over_mij.html">Over mij</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Projecten
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="">Requirements analysis</a></li>
-                                    <li><a class="dropdown-item" href="">Case study</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main class="container-md">
-            <div id="container" class="row m-auto mb-3">
-                <div id="welcome" class="col-md-6">
-                    <h1 class="text-center pb-2">Welcome</h1>
-                    <p>My name is Sebastian Van Grieken, I'm a 2e year student APP/AI at Thomas More. This website will be a showing of my work.</p>
-                    <a href="over_mij.html" class="p-1">About Me <i class="fa-solid fa-arrow-right"></i></a>
-                    <div class="text-center">
-                        <img src="images/avataaars.svg" alt="avatar">
-                        <h3>Sebastian Van Grieken</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <h1 class="text-center pb-2">Projects</h1>
-                    <h4>Requirements Analysis</h4>
-                    <p>For this subject I had to work in team to realise a project given to us be a teacher playing our client.
-                    This project helped me work better in team and also taught me how we should approach talking with a client.</p>
-                    <h4>Case Study</h4>
-                    <p>This Case study I made for a course called DevOps was a fun project which had me use ASP.NET to code a WebApplication.</p>
-                    <a href="projecten.html" class="p-1">Projects<i class="fa-solid fa-arrow-right"></i></a>
-                </div>
+    <header>
+        <nav>
+            <h1>Sebastian</h1>
+            <a href="#overMij">Over mij</a>
+            <a href="#projecten">Projecten</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2 id="overMij">Over mij</h2>
+            <img src="avataaars.svg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, animi incidunt assumenda aperiam ut explicabo quaerat ipsum doloribus praesentium sed laborum repellat dolores magnam eius. Impedit qui sed reprehenderit molestias.</p>
+        </div>
+        <div class="card">
+            <h2>Skills</h2>
+            <div id="card2">
+                <ul>
+                    <li>Arduino</li>
+                    <li>HTML</li>
+                    <li>PLC</li>
+                </ul>
+                <ul>
+                    <li>5/10</li>
+                    <li>7/10</li>
+                    <li>2/10</li>
+                </ul>
             </div>
-        </main>
-        <footer class="position-fixed">
-            <a href="#"><i class="fa-solid fa-arrow-up fa-2x me-3 mb-3"></i></a>
-        </footer>
-    </div>
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+        <div class="card">
+            <h2 id="projecten">Projecten</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ratione perspiciatis qui doloremque esse incidunt, accusamus, voluptates atque mollitia tempora dolorum vel, ad accusantium distinctio explicabo ducimus laboriosam tenetur. Nam.</p>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/"><img src="images/github.svg" alt="github"></a>
+        <a href="https://www.hln.be/"><img src="images/paperclip-solid.svg" alt=""></a>
+        <a href="https://www.vlaamsbelang.org/en"><img src="images/instagram.svg" alt=""></a>
+        <a href="#">up</a>
+    </footer>
 </body>
 </html>

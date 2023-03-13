@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: beige;
+    color: darkblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chartreuse;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+a:hover {
+    background-color: hotpink;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: brown;
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+li {
+    list-style-type: none;
+}
+
+#card2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 20px;
+}
